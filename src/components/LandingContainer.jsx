@@ -3,8 +3,11 @@ import Footer from "./shared/Footer";
 
 export default function LandingContainer(){
     return (
-        <div style={{height:"100%", display:"grid",gridTemplateRows:"min-content auto min-content", paddingInline:25, paddingTop: 64}}>
+        <div style={{height:"100%", display:"grid",gridTemplateRows:"min-content auto min-content", paddingInline:25}}>
             <div style={{marginBlock:5}}>
+                <br />
+                <br />
+                <br />
                 <Typography variant="h4">Index View: </Typography>
             </div>
 
