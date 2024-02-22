@@ -1,4 +1,4 @@
 const BACKEND = {};
-BACKEND.baseurl = "https://localhost:7088/"
+BACKEND.baseurl = process.env.BACKEND_URL || "https://localhost:7088/"
 
 export default BACKEND
